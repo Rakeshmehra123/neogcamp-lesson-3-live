@@ -4,115 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-    
-    <link href="styles.css" rel="stylesheet"/>
+    <title>Home | portfolio</title>
+    <link href="styles.css" rel="stylesheet"/><!--this is a style tage-->
 </head>
 <body>
-    <h1> Rakesh's Component library</h1>
-    
-    <p>I am attending neog.camp and i want to make a library which would make all my projecs look good and comsistent.</p>
-        <hr>
-
-        <h2>@typography</h2>
-        <h1>This is the biggest heading</h1>
-
-        <h2>This is the second biggest</h2>
-
-        <p >let me show you the normal text. This is free flowing and will wrap at end the
-            like a paragraph</p>
-            <p>This paragraph will have a <strong>bold</strong> text</p>
-            <small>This is relatively small text</small>
-
-        <hr>
-
-            <h2>@container</h2>
-
-            <h3>fluid container</h3><!--it will bw used for nav-->
-                <div class="container">This is a fluid container and it will go till the end of the page</div>
-            <h3>center container</h3>
-                <div class="container container-center">This is a centered container and it will go till the specified width</div>
-        <hr>
-
-        <h2>@links</h2>
-
-        <a class="links link-primary"href="/">Primary Link</a>
-        <a class="links link-secondary" href="/">Secondary Link</a>
-
-        <hr>
-
-        <h2>@lists</h2>
-
-        <h3>unodered list</h3>
-
-        <ul class="list-none-bullets"> 
-            <li>Itrem One</li>
-            <li>Item Two</li>
-            <li>Item Three</li>
-        </ul>
-
-        <h3>unordered Inline List</h3>
-
-        <ul class="list-none-bullets">                         <!--ul == unordered list -->
-            <li class="list-item-inline">Inline Item One</li> <!--it will be inline using css-->
-            <li class="list-item-inline">Inline Item Two</li>
-            <li class="list-item-inline">Inline Item Three</li>
-        </ul>
-
-        <h3>reverse ordered list</h3>
-
-        <ol reversed>
-            <li>milk</li>
-            <li>egg</li>  <!--it'll reverse in csss-->
-            <li>bread</li>
-        </ol>
-        <hr/>
-
-        <h2>@nav</h2>
-        <nav class="navigation">
-            <div class="nav-brand" >IAmBrand</div>
-                <ul class="list-none-bullets nav-pills">
-                    <li class="list-item-inline">
-                        <a class="links link-active"  href="/">Home</a>
-                    </li>
-                    <li class="list-item-inline">
-                        <a class="links"  href="/">Projects</a>
-                    </li>
-                    <li class="list-item-inline">
-                        <a class="links"  href="/">Blogs</a>
-                    </li>
-                </ul>
-        </nav>
-                <hr>
-                
-        <h2>header</h2>
+    <nav class="navigation">
+        <div class="nav-brand" >RakeshMehra</div>
+            <ul class="list-none-bullets nav-pills">
+                <li class="list-item-inline">
+                    <a class="links link-active"  href="/">Home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="links"  href="/Projects.html">Projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="links"  href="/Blogs.html">Blogs</a>
+                </li>
+            </ul>
+           
+    </nav>
         <header class="hero">
             <img class="hero-img"src="images/img.svg"/>
             <h1 class="hero-heading ">I m Rakesh Mehra the<span class=" heading-inverted">  web developer</span></h1>
-        </header>            
-        <hr>
-        <h2>@section</h2>
+        </header>          
+        <section class="section ow">
+            <div class="container container-center">
+            <h1>technologies</h1>
+            <p>I'm familiar with Html5, css3,javaScript,(c&cpp) programming languages,basics of dataStructure</p>
+            </div>
+        </section>
         <section class="section">
             <div class="container container-center">
-            <h1>white section</h1>
-            <p>This will have white background</p>
-        </div>
+                <h1>projects</h1>
+                <p>Here is my projecs, you can see my project hosted onlie</p>
+
+                <a class="links link-primary"href="/">Browse Projects</a>
+            </div>
         </section>
         <section class="section ow">
             <div class="container container-center">
-            <h1>off white section</h1>
-            <p>This will have gray background</p>
+            <h1>Blogs</h1>
+            <p>Here some blogs that are written by me</p>
+            <a class="links link-secondary" href="/">Read Blogs</a>
+
             </div>
         </section>
-        <hr>
-        <h2>@footer</h2>
+
         <footer class="footer">
-            <div class="footer-header">some small heading inside footer</div>
+            <div class="footer-header">social media presence</div>
                 <ul class="social-link list-none-bullets">
-                    <li class="list-item-inline"><a class="links" href="/">socialLinkOne</a></li>
-                    <li class="list-item-inline"><a class="links" href="/">socialLinkTwo</a></a></li>
-                    <li class="list-item-inline"><a class="links" href="/">socialLinkThree</a></li>
+                    <li class="list-item-inline"><a class="links" href="https://github.com/Rakeshmehra123">github</a></li>
+                    <li class="list-item-inline"><a class="links" href="https://linkedin.com/in/rakesh-mehra-356a6b222/'">Linkedin</a></a></li>
+                    <li class="list-item-inline"><a class="links" href="">twitter</a></li>
                 </ul>
         </footer>
+
 </body>
 </html>

@@ -9,6 +9,9 @@
 hr{
     margin: 1rem 0rem;
 }
+.margin-md{
+    margin: 2rem;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -89,6 +92,7 @@ body {
 
 .hero{
     padding: 1rem;
+    padding-top: 5rem;
 }
 
 .hero-img{
@@ -128,6 +132,11 @@ body {
     border-bottom-left-radius: 1rem;
     text-align: center  ;
     color: white;
+}
+
+.footer .footer-header{
+    font-size: large;
+    font-weight: bold;
 }
 
 .footer .links{
