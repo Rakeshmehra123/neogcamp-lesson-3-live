@@ -17,6 +17,7 @@ body {
 .container {
    padding-left: 1rem;
    padding-right: 1rem;
+   text-align: center;
 }
 
 .container-center{
@@ -97,6 +98,7 @@ body {
 }
 
 .hero-heading{
+    text-align: center;
     color: var(--dark-gray);
     padding:1rem;
 }
@@ -117,4 +119,22 @@ body {
 
 .ow{
     background-color: var(--off-white);
+}
+
+/**footer**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center  ;
+    color: white;
+}
+
+.footer .links{
+    text-align: center;
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
